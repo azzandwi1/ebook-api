@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Author;
+use Validator;
+use App\User;
 
 class AuthorController extends Controller
 {
